@@ -1,0 +1,16 @@
+#
+#   Author: Jayant Gandhi
+#
+#   Date: 12/3/2012
+#
+#
+#   Basic makefile to create BTree.exe (UNIX)
+#   (It doesn't use dependencies, but it works!)
+#
+#   A command file with a list of commands is required to utilize the program
+#   Must be passed as the command line argument
+#
+#
+
+all:
+		g++ BTreeDriver.cpp -o BTree.exe
